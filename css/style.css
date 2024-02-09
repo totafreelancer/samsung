@@ -1,0 +1,236 @@
+
+img {
+    width: 100%;
+    max-height: 100%;
+}
+/* heading nav */
+nav {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav_ber {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+.nav_ber .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_ber ul .item a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.nav_ber ul .item:hover a {
+    color: aliceblue;
+}
+.nav_ber .nav_item ul {
+    display: flex;
+}
+.nav_ber .nav_item ul .item {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.nav_ber .nav_item ul .item:hover {
+    background: black;
+    border-radius: 2rem;
+}
+.nav_ber .nav_item ul .item:hover i{
+    color: aliceblue;
+}
+.nav_ber .nav_item ul .item i {
+    color: black;
+}
+.nav_ber .nav_item ul .fa_bars {
+    display: none;
+}
+
+/* heading */
+
+.sections {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.sections .saider {
+    position: relative;
+    height: 600px;
+}
+.sections .saider .tex {
+    position: absolute;
+    top: 18%;
+    left: 36%;
+    font-size: 1.5rem;
+    color: black;
+    font-family: sans-serif;
+}
+
+/* Mobile */
+.Mobile {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.Mobile.baground-1 {
+    background-image: url(../img/HOME_E3_MX-KV_1440x810_pc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.Mobile.baground-2 {
+    background-image: url(../img/1440X810-v4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.Mobile.baground-3 {
+    background-image: url(../img/PF_KV_1440x810.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.head h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+.Mobile_nav .nav_item ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.Mobile_nav .nav_item ul .items {
+    margin: 0 8px;
+}
+.Mobile_nav .nav_item ul .btn {
+    background: no-repeat;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.Mobile_nav .nav_item ul .btn .underline {
+    background: black;
+    width: 100%;
+    height: 2px;
+}
+.Mobile .Mobile_nav .baground {
+    padding: 418px 24px 0 24px;
+}
+.Mobile .Mobile_nav .baground .texs h1 {
+    font-size: 2rem;
+    font-family: system-ui;
+}
+.Mobile .Mobile_nav .baground .buts button {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.Mobile .Mobile_nav .baground .buts {
+    height: 88px;
+}
+.Mobile .Mobile_nav .baground .buts button:hover {
+    background: rgb(51, 48, 48);
+}
+
+.Mobile.baground-2 .head h1 {
+    color: white;
+}
+.Mobile.baground-2 .Mobile_nav .nav_item ul .btn {
+    color: white;
+}
+.Mobile.baground-2 .Mobile_nav .baground .texs h1 {
+    color: white;
+}
+.Mobile.baground-2 .Mobile_nav .baground .buts button {
+    color: black;
+}
+.Mobile.baground-2 .Mobile_nav .baground .buts button {
+    background: white;
+}
+.Mobile.baground-2 .Mobile_nav .baground .buts button:hover {
+    background: rgb(230, 226, 226);
+}
+
+.Month {
+    text-align: center;
+}
+.Month .grids {
+    display: grid;
+    grid: 24% 24% 24% 24%;
+}
+.Month .grids {
+    display: grid;
+    grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+}
+  
+.Month .grids  > div {
+    background-color: rgb(221 221 221 / 80%);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.Month .grids .grid1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+.Month .grids .grid {
+    padding: 4rem 5rem 1rem 5rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.Month .grids .grid_img {
+    text-decoration: none;
+}  
+.Month .grids .grid .text {
+    color: black;
+    font-family: sans-serif;
+}
+.Month .grids .grid .tex_btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.Month .grids .grid .tex_btn .paras {
+    position: absolute;
+    top: 0;
+    color: black;
+    margin: 0;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.Month .grids .grid:hover .grid_img .tex_btn .paras {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+}
+.Month .grids .grid .tex_btn .boton {
+    border: none;
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.Month .grids .grid:hover .grid_img .tex_btn .boton {
+    opacity: 1;
+}
